@@ -26,4 +26,12 @@ class HomeController extends Controller
 //        return view('home');
         return redirect('/');
     }
+    public function expocitores()
+    {
+        return view('expocitores');
+    }
+    public function cursos()
+    {
+        return view('cursos');
+    }
 }

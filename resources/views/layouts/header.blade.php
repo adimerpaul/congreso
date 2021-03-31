@@ -5,7 +5,7 @@
 <!-- Mirrored from uidevr.com/tf/asiapp/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 21 Mar 2021 20:22:49 GMT -->
 <head>
     <meta charset="UTF-8">
-    <title>Asiapp - Shop & Medical Mobile Template </title>
+    <title>Congreso de neurología </title>
     <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -49,7 +49,7 @@
             </a>
         </div>
         <div class="header-logo">
-            <a href="#" class="nav-logo">Asiapp</a>
+            <a href="/" class="nav-logo">Congreso Neurologia</a>
         </div>
         <div class="header-icon-menu">
             <a href="#" data-activates="nav-mobile-account" class="button-collapse" id="button-collapse-account"><i class="fas fa-search"></i></a>
@@ -111,7 +111,7 @@
                         </a>
                     </div>
                     <div class="balance">
-                        Balance : <span>$600</span>
+                        <b> Inscripcion: </b><span  class="<?=Auth::user()->estado=='PENDIENTE'?'yellow darken-1':'green'?>" style="padding-right: 5px;padding-left: 3px;border-radius:3px;color: white">{{Auth::user()->estado}}</span>
                     </div>
                 </div>
                 <div class="bg-profile-li">
@@ -119,124 +119,130 @@
                 </div>
             </li>
             <li>
-                <a class="waves-effect waves-blue" href="index.html"><i class="fas fa-home"></i>Home</a>
+                <a class="waves-effect waves-blue" href="/"><i class="fas fa-home"></i>Principal</a>
             </li>
             <li>
-                <a href="our-doctors.html"><i class="fas fa-user-md"></i>Our Doctors</a>
+                <a href="/expocitores"><i class="fas fa-user-md"></i>Expocitores</a>
             </li>
             <li>
-                <ul class="collapsible collapsible-accordion">
-                    <li>
-                        <div class="collapsible-header">
-                            <i class="fas fa-shopping-bag"></i>Shop<span><i class="fas fa-caret-down"></i></span>
-                        </div>
-                        <div class="collapsible-body">
-                            <ul>
-                                <li>
-                                    <a class="waves-effect waves-blue" href="product-list.html"><i class="fas fa-angle-right"></i>Product List</a>
-                                </li>
-                                <li>
-                                    <a class="waves-effect waves-blue" href="wish-list.html"><i class="fas fa-angle-right"></i>Wish List</a>
-                                </li>
-                                <li>
-                                    <a class="waves-effect waves-blue" href="product-page.html"><i class="fas fa-angle-right"></i>Product Page</a>
-                                </li>
-                                <li>
-                                    <a class="waves-effect waves-blue" href="shopping-cart.html"><i class="fas fa-angle-right"></i>Shopping Cart</a>
-                                </li>
-                                <li>
-                                    <a class="waves-effect waves-blue" href="checkout.html"><i class="fas fa-angle-right"></i>Checkout</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
+                <a href="/cursos"><i class="fas fa-shopping-cart"></i>Cursos online</a>
             </li>
             <li>
-                <ul class="collapsible collapsible-accordion">
-                    <li>
-                        <div class="collapsible-header">
-                            <i class="far fa-newspaper"></i>News Blog<span><i class="fas fa-caret-down"></i></span>
-                        </div>
-                        <div class="collapsible-body">
-                            <ul>
-                                <li>
-                                    <a class="waves-effect waves-blue" href="news-list.html"><i class="fas fa-angle-right"></i>News List</a>
-                                </li>
-                                <li>
-                                    <a class="waves-effect waves-blue" href="news-page.html"><i class="fas fa-angle-right"></i>News Page</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
+                <a href="our-doctors.html"><i class="fas fa-bookmark"></i>Biblioteca vitual</a>
+            </li>
+{{--            <li>--}}
+{{--                <ul class="collapsible collapsible-accordion">--}}
+{{--                    <li>--}}
+{{--                        <div class="collapsible-header">--}}
+{{--                            <i class="fas fa-shopping-bag"></i>Cursos virtuales<span><i class="fas fa-caret-down"></i></span>--}}
+{{--                        </div>--}}
+{{--                        <div class="collapsible-body">--}}
+{{--                            <ul>--}}
+{{--                                <li>--}}
+{{--                                    <a class="waves-effect waves-blue" href="product-list.html"><i class="fas fa-angle-right"></i>Product List</a>--}}
+{{--                                </li>--}}
+{{--                                <li>--}}
+{{--                                    <a class="waves-effect waves-blue" href="wish-list.html"><i class="fas fa-angle-right"></i>Wish List</a>--}}
+{{--                                </li>--}}
+{{--                                <li>--}}
+{{--                                    <a class="waves-effect waves-blue" href="product-page.html"><i class="fas fa-angle-right"></i>Product Page</a>--}}
+{{--                                </li>--}}
+{{--                                <li>--}}
+{{--                                    <a class="waves-effect waves-blue" href="shopping-cart.html"><i class="fas fa-angle-right"></i>Shopping Cart</a>--}}
+{{--                                </li>--}}
+{{--                                <li>--}}
+{{--                                    <a class="waves-effect waves-blue" href="checkout.html"><i class="fas fa-angle-right"></i>Checkout</a>--}}
+{{--                                </li>--}}
+{{--                            </ul>--}}
+{{--                        </div>--}}
+{{--                    </li>--}}
+{{--                </ul>--}}
+{{--            </li>--}}
+{{--            <li>--}}
+{{--                <ul class="collapsible collapsible-accordion">--}}
+{{--                    <li>--}}
+{{--                        <div class="collapsible-header">--}}
+{{--                            <i class="far fa-newspaper"></i>News Blog<span><i class="fas fa-caret-down"></i></span>--}}
+{{--                        </div>--}}
+{{--                        <div class="collapsible-body">--}}
+{{--                            <ul>--}}
+{{--                                <li>--}}
+{{--                                    <a class="waves-effect waves-blue" href="news-list.html"><i class="fas fa-angle-right"></i>News List</a>--}}
+{{--                                </li>--}}
+{{--                                <li>--}}
+{{--                                    <a class="waves-effect waves-blue" href="news-page.html"><i class="fas fa-angle-right"></i>News Page</a>--}}
+{{--                                </li>--}}
+{{--                            </ul>--}}
+{{--                        </div>--}}
+{{--                    </li>--}}
+{{--                </ul>--}}
+{{--            </li>--}}
+            <li>
+                <a href="gallery.html"><i class="fas fa-camera-retro"></i>Galeria</a>
+            </li>
+{{--            <li>--}}
+{{--                <ul class="collapsible collapsible-accordion">--}}
+{{--                    <li>--}}
+{{--                        <div class="collapsible-header">--}}
+{{--                            <i class="fas fa-columns"></i>Pages <span><i class="fas fa-caret-down"></i></span>--}}
+{{--                        </div>--}}
+{{--                        <div class="collapsible-body">--}}
+{{--                            <ul>--}}
+{{--                                <li>--}}
+{{--                                    <a class="waves-effect waves-blue" href="index.html"><i class="fas fa-angle-right"></i>Home</a>--}}
+{{--                                </li>--}}
+{{--                                <li>--}}
+{{--                                    <a class="waves-effect waves-blue" href="setting.html"><i class="fas fa-angle-right"></i>Setting</a>--}}
+{{--                                </li>--}}
+{{--                                <li>--}}
+{{--                                    <a class="waves-effect waves-blue" href="404.html"><i class="fas fa-angle-right"></i>404</a>--}}
+{{--                                </li>--}}
+{{--                                <li>--}}
+{{--                                    <a class="waves-effect waves-blue" href="login.html"><i class="fas fa-angle-right"></i>Sign In</a>--}}
+{{--                                </li>--}}
+{{--                                <li>--}}
+{{--                                    <a class="waves-effect waves-blue" href="signup.html"><i class="fas fa-angle-right"></i>Sign Up</a>--}}
+{{--                                </li>--}}
+{{--                                <li>--}}
+{{--                                    <a class="waves-effect waves-blue" href="single-page.html"><i class="fas fa-angle-right"></i>Single page</a>--}}
+{{--                                </li>--}}
+{{--                                <li>--}}
+{{--                                    <a class="waves-effect waves-blue" href="news-list.html"><i class="fas fa-angle-right"></i>News List</a>--}}
+{{--                                </li>--}}
+{{--                                <li>--}}
+{{--                                    <a class="waves-effect waves-blue" href="news-page.html"><i class="fas fa-angle-right"></i>News Page</a>--}}
+{{--                                </li>--}}
+{{--                                <li>--}}
+{{--                                    <a class="waves-effect waves-blue" href="gallery.html"><i class="fas fa-angle-right"></i>Gallery</a>--}}
+{{--                                </li>--}}
+{{--                                <li>--}}
+{{--                                    <a class="waves-effect waves-blue" href="product-list.html"><i class="fas fa-angle-right"></i>Product List</a>--}}
+{{--                                </li>--}}
+{{--                                <li>--}}
+{{--                                    <a class="waves-effect waves-blue" href="wish-list.html"><i class="fas fa-angle-right"></i>Wish List</a>--}}
+{{--                                </li>--}}
+{{--                                <li>--}}
+{{--                                    <a class="waves-effect waves-blue" href="product-page.html"><i class="fas fa-angle-right"></i>Product Page</a>--}}
+{{--                                </li>--}}
+{{--                                <li>--}}
+{{--                                    <a class="waves-effect waves-blue" href="shopping-cart.html"><i class="fas fa-angle-right"></i>Shopping Cart</a>--}}
+{{--                                </li>--}}
+{{--                                <li>--}}
+{{--                                    <a class="waves-effect waves-blue" href="checkout.html"><i class="fas fa-angle-right"></i>Checkout</a>--}}
+{{--                                </li>--}}
+{{--                                <li>--}}
+{{--                                    <a class="waves-effect waves-blue" href="contact.html"><i class="fas fa-angle-right"></i>Contact Us</a>--}}
+{{--                                </li>--}}
+{{--                            </ul>--}}
+{{--                        </div>--}}
+{{--                    </li>--}}
+{{--                </ul>--}}
+{{--            </li>--}}
+            <li>
+                <a href="setting.html"><i class="fas fa-cog"></i>Configuraciones</a>
             </li>
             <li>
-                <a href="gallery.html"><i class="fas fa-camera-retro"></i>Gallery</a>
-            </li>
-            <li>
-                <ul class="collapsible collapsible-accordion">
-                    <li>
-                        <div class="collapsible-header">
-                            <i class="fas fa-columns"></i>Pages <span><i class="fas fa-caret-down"></i></span>
-                        </div>
-                        <div class="collapsible-body">
-                            <ul>
-                                <li>
-                                    <a class="waves-effect waves-blue" href="index.html"><i class="fas fa-angle-right"></i>Home</a>
-                                </li>
-                                <li>
-                                    <a class="waves-effect waves-blue" href="setting.html"><i class="fas fa-angle-right"></i>Setting</a>
-                                </li>
-                                <li>
-                                    <a class="waves-effect waves-blue" href="404.html"><i class="fas fa-angle-right"></i>404</a>
-                                </li>
-                                <li>
-                                    <a class="waves-effect waves-blue" href="login.html"><i class="fas fa-angle-right"></i>Sign In</a>
-                                </li>
-                                <li>
-                                    <a class="waves-effect waves-blue" href="signup.html"><i class="fas fa-angle-right"></i>Sign Up</a>
-                                </li>
-                                <li>
-                                    <a class="waves-effect waves-blue" href="single-page.html"><i class="fas fa-angle-right"></i>Single page</a>
-                                </li>
-                                <li>
-                                    <a class="waves-effect waves-blue" href="news-list.html"><i class="fas fa-angle-right"></i>News List</a>
-                                </li>
-                                <li>
-                                    <a class="waves-effect waves-blue" href="news-page.html"><i class="fas fa-angle-right"></i>News Page</a>
-                                </li>
-                                <li>
-                                    <a class="waves-effect waves-blue" href="gallery.html"><i class="fas fa-angle-right"></i>Gallery</a>
-                                </li>
-                                <li>
-                                    <a class="waves-effect waves-blue" href="product-list.html"><i class="fas fa-angle-right"></i>Product List</a>
-                                </li>
-                                <li>
-                                    <a class="waves-effect waves-blue" href="wish-list.html"><i class="fas fa-angle-right"></i>Wish List</a>
-                                </li>
-                                <li>
-                                    <a class="waves-effect waves-blue" href="product-page.html"><i class="fas fa-angle-right"></i>Product Page</a>
-                                </li>
-                                <li>
-                                    <a class="waves-effect waves-blue" href="shopping-cart.html"><i class="fas fa-angle-right"></i>Shopping Cart</a>
-                                </li>
-                                <li>
-                                    <a class="waves-effect waves-blue" href="checkout.html"><i class="fas fa-angle-right"></i>Checkout</a>
-                                </li>
-                                <li>
-                                    <a class="waves-effect waves-blue" href="contact.html"><i class="fas fa-angle-right"></i>Contact Us</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="setting.html"><i class="fas fa-cog"></i>Setting</a>
-            </li>
-            <li>
-                <a href="contact.html"><i class="fas fa-envelope"></i>Contact Us</a>
+                <a href="contact.html"><i class="fas fa-envelope"></i>Contactos</a>
             </li>
             <li>
                 {{--                <a href="#"><i class="fas fa-sign-out-alt"></i>Sign Out</a>--}}

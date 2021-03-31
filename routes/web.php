@@ -20,4 +20,6 @@ Route::get('users', [\App\Http\Controllers\UserController::class,'index']);
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->middleware('auth');
+Route::get('/expocitores', [App\Http\Controllers\HomeController::class, 'expocitores'])->middleware('auth');
+Route::get('/cursos', [App\Http\Controllers\HomeController::class, 'cursos'])->middleware('auth');
