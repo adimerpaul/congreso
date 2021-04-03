@@ -2,6 +2,12 @@
 
 @section('content')
     <!-- CONTENT -->
+    <style>
+        .imagen{
+            background-size: cover;
+            height: 100vh;
+        }
+    </style>
     <div id="page-content">
         <div class="wishlist-page">
             <div class="container">
@@ -20,18 +26,21 @@
                             <div class="wish-box">
                                 <div class="wi-img">
                                     <div class="wi-img-product">
-                                        <img src="img/product.jpg" alt="product">
+                                        <img class="imagen" src="img/c1.jpg" alt="product">
                                     </div>
                                 </div>
                                 <div class="wi-name">
                                     <div class="win-top">
-                                        <div class="win-title">Herbal Drinks</div>
-                                        <div class="win-price">$ 5.00</div>
-                                        <div class="win-info">Health drinks</div>
+                                        <div class="win-title">Neurologia y neurodesarrollo</div>
+                                        <div class="win-price">Jueves 13 de diciembre 08:00-900</div>
+                                        <div class="win-info">Expocitor Doctor Juan perez calle lopez</div>
                                     </div>
                                 </div>
                                 <div class="wi-remove">
-                                    <a href="#"><i class="far fa-times-circle"></i></a>
+                                    <a href="https://us04web.zoom.us/j/72719306235?pwd=U3hSbUp6dHN6VkVORDJCOWZOaElSZz09" target="_blank">
+{{--                                        <i class="far fa-times-circle"></i>--}}
+                                        <img src="img/zoom.png" alt="">
+                                    </a>
                                 </div>
                                 <div class="clear"></div>
                             </div>
@@ -44,18 +53,21 @@
                             <div class="wish-box">
                                 <div class="wi-img">
                                     <div class="wi-img-product">
-                                        <img src="img/product2.jpg" alt="product">
+                                        <img class="imagen" src="img/c2.jpg" alt="product">
                                     </div>
                                 </div>
                                 <div class="wi-name">
                                     <div class="win-top">
-                                        <div class="win-title">Vitamin</div>
-                                        <div class="win-price">$ 8.00</div>
-                                        <div class="win-info">1pack 20pcs</div>
+                                        <div class="win-title">Neurologia y neurodesarrollo</div>
+                                        <div class="win-price">Jueves 13 de diciembre 08:00-900</div>
+                                        <div class="win-info">Expocitor Doctor Juan perez calle lopez</div>
                                     </div>
                                 </div>
                                 <div class="wi-remove">
-                                    <a href="#"><i class="far fa-times-circle"></i></a>
+                                    <a href="https://us04web.zoom.us/j/72719306235?pwd=U3hSbUp6dHN6VkVORDJCOWZOaElSZz09" target="_blank">
+                                        {{--                                        <i class="far fa-times-circle"></i>--}}
+                                        <img src="img/zoom.png" alt="">
+                                    </a>
                                 </div>
                                 <div class="clear"></div>
                             </div>
@@ -68,18 +80,21 @@
                             <div class="wish-box">
                                 <div class="wi-img">
                                     <div class="wi-img-product">
-                                        <img src="img/product3.jpg" alt="product">
+                                        <img class="imagen" src="img/c3.jpg" alt="product">
                                     </div>
                                 </div>
                                 <div class="wi-name">
                                     <div class="win-top">
-                                        <div class="win-title">Suplemen</div>
-                                        <div class="win-price">$ 5.00</div>
-                                        <div class="win-info">Lorem ipsum</div>
+                                        <div class="win-title">Neurologia y neurodesarrollo</div>
+                                        <div class="win-price">Jueves 13 de diciembre 08:00-900</div>
+                                        <div class="win-info">Expocitor Doctor Juan perez calle lopez</div>
                                     </div>
                                 </div>
                                 <div class="wi-remove">
-                                    <a href="#"><i class="far fa-times-circle"></i></a>
+                                    <a href="https://us04web.zoom.us/j/72719306235?pwd=U3hSbUp6dHN6VkVORDJCOWZOaElSZz09" target="_blank">
+                                        {{--                                        <i class="far fa-times-circle"></i>--}}
+                                        <img src="img/zoom.png" alt="">
+                                    </a>
                                 </div>
                                 <div class="clear"></div>
                             </div>
@@ -92,18 +107,21 @@
                             <div class="wish-box">
                                 <div class="wi-img">
                                     <div class="wi-img-product">
-                                        <img src="img/product4.jpg" alt="product">
+                                        <img class="imagen" src="img/c4.jpg" alt="product">
                                     </div>
                                 </div>
                                 <div class="wi-name">
                                     <div class="win-top">
-                                        <div class="win-title">Tablet</div>
-                                        <div class="win-price">$ 7.00</div>
-                                        <div class="win-info">1pack - 25 pcs</div>
+                                        <div class="win-title">Neurologia y neurodesarrollo</div>
+                                        <div class="win-price">Jueves 13 de diciembre 08:00-900</div>
+                                        <div class="win-info">Expocitor Doctor Juan perez calle lopez</div>
                                     </div>
                                 </div>
                                 <div class="wi-remove">
-                                    <a href="#"><i class="far fa-times-circle"></i></a>
+                                    <a href="https://us04web.zoom.us/j/72719306235?pwd=U3hSbUp6dHN6VkVORDJCOWZOaElSZz09" target="_blank">
+                                        {{--                                        <i class="far fa-times-circle"></i>--}}
+                                        <img src="img/zoom.png" alt="">
+                                    </a>
                                 </div>
                                 <div class="clear"></div>
                             </div>
@@ -116,18 +134,21 @@
                             <div class="wish-box">
                                 <div class="wi-img">
                                     <div class="wi-img-product">
-                                        <img src="img/product5.jpg" alt="product">
+                                        <img class="imagen" src="img/c5.jpg" alt="product" >
                                     </div>
                                 </div>
                                 <div class="wi-name">
                                     <div class="win-top">
-                                        <div class="win-title">Tablet 2</div>
-                                        <div class="win-price">$ 10.00</div>
-                                        <div class="win-info">1pack - 20pcs</div>
+                                        <div class="win-title">Neurologia y neurodesarrollo</div>
+                                        <div class="win-price">Jueves 13 de diciembre 08:00-900</div>
+                                        <div class="win-info">Expocitor Doctor Juan perez calle lopez</div>
                                     </div>
                                 </div>
                                 <div class="wi-remove">
-                                    <a href="#"><i class="far fa-times-circle"></i></a>
+                                    <a href="https://us04web.zoom.us/j/72719306235?pwd=U3hSbUp6dHN6VkVORDJCOWZOaElSZz09" target="_blank">
+                                        {{--                                        <i class="far fa-times-circle"></i>--}}
+                                        <img src="img/zoom.png" alt="">
+                                    </a>
                                 </div>
                                 <div class="clear"></div>
                             </div>

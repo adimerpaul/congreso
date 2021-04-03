@@ -34,4 +34,20 @@ class HomeController extends Controller
     {
         return view('cursos');
     }
+    public function biblioteca()
+    {
+        return view('biblioteca');
+    }
+    public function galeria()
+    {
+        return view('galeria');
+    }
+    public function configuracion()
+    {
+        return view('configuracion');
+    }
+    public function contacto()
+    {
+        return view('contacto');
+    }
 }

@@ -128,7 +128,7 @@
                 <a href="/cursos"><i class="fas fa-shopping-cart"></i>Cursos online</a>
             </li>
             <li>
-                <a href="our-doctors.html"><i class="fas fa-bookmark"></i>Biblioteca vitual</a>
+                <a href="/biblioteca"><i class="fas fa-bookmark"></i>Biblioteca vitual</a>
             </li>
 {{--            <li>--}}
 {{--                <ul class="collapsible collapsible-accordion">--}}
@@ -178,7 +178,7 @@
 {{--                </ul>--}}
 {{--            </li>--}}
             <li>
-                <a href="gallery.html"><i class="fas fa-camera-retro"></i>Galeria</a>
+                <a href="/galeria"><i class="fas fa-camera-retro"></i>Galeria</a>
             </li>
 {{--            <li>--}}
 {{--                <ul class="collapsible collapsible-accordion">--}}
@@ -239,10 +239,10 @@
 {{--                </ul>--}}
 {{--            </li>--}}
             <li>
-                <a href="setting.html"><i class="fas fa-cog"></i>Configuraciones</a>
+                <a href="/configuracion"><i class="fas fa-cog"></i>Configuraciones</a>
             </li>
             <li>
-                <a href="contact.html"><i class="fas fa-envelope"></i>Contactos</a>
+                <a href="/contacto"><i class="fas fa-envelope"></i>Contactos</a>
             </li>
             <li>
                 {{--                <a href="#"><i class="fas fa-sign-out-alt"></i>Sign Out</a>--}}
